@@ -45,7 +45,7 @@ The **Random Forest model** outperformed Linear Regression in both metrics and i
 - Future enhancements can include additional data features (e.g., time of day, promotions, location)
 
 ## 📁 Files Included
-- `Capstone_Project_Final.ipynb`: Full notebook (EDA + modeling)
-- `Capstone Project_Final.docx`: Final business report
-- `README.md`: This summary file
-
+- `Capstone_Project_Final.ipynb
+- `Capstone Project_Final.docx
+- Capstone_Project-Menu_Sales_Summary_Presentation.pptx
+- `README.md

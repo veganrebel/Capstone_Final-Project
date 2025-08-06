@@ -1,4 +1,4 @@
-# 📊 Capstone Project: Menu Sales Forecasting
+# Capstone Project: Menu Sales Forecasting
 
 ## Define the Problem Statement:
 The objective of this project is to support data-driven decision-making for a restaurant by analyzing historical sales data. By identifying which menu items generate the highest revenue and understanding seasonal or quantity-based trends, we aim to forecast future sales performance. These insights will enable the restaurant to better manage inventory, reduce waste, optimize purchasing decisions, and ensure popular items remain in stock, improving operational efficiency and profitability.

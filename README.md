@@ -41,7 +41,7 @@ Identifying top overall revenue generators: Cali-Bae, Loaded Nachos, El Classico
 
 Future enhancements to the data can include additional features like holidays or special events, allowing a better prediction spikes on certain days. In additoin, data that can determine dine in vs pick-up orders to determine how to staff on certain days would be great.
 
-## 📁 Files Included
+## Files Included
 - Capstone_Project_Final.ipynb
 - Capstone_Project-Menu_Sales_Summary_Presentation.pptx
 - README.md

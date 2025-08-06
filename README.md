@@ -26,7 +26,7 @@ The dataset was cleaned and prepared to ensure accuracy and reliability by doing
 •	Data Splitting: Divided the dataset into two parts: a training set to teach the model using past data and a test set to evaluate how well it performs on unseen data.
 
 ## Modeling
-I used Linear Regressuib abd Random Forrest regression models to predict future item-level revenue:
+I used Linear Regression and Random Forrest regression models to predict future item-level revenue:
 - Linear Regression - helped identify linear trends in the data useful for baseline relationships between time, quantity sold and price.
 -  Random Forest captured the more complex non linear patterns.
 

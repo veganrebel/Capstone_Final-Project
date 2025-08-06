@@ -39,9 +39,7 @@ The Random Forest model outperformed Linear Regression in both metrics and is re
 
 Identifying top overall revenue generators: Cali-Bae, Loaded Nachos, El Classico BUrrito, Signature Fries and asada tacos, the restaurant can make more informed decisions around stocking, staffing, and campaign timing to drive growth and reduce waste. Ensuring these top performers can be leveraged for special campaigns during slower months, this can increase foot traffic, increasing sales and customers. 
 
-- Random Forest provided stronger and more accurate predictions
-- Revenue predictions can improve inventory decisions and reduce waste
-- Future enhancements can include additional data features like holidays or special events,
+Future enhancements to the data can include additional features like holidays or special events, allowing a better prediction spikes on certain days. In additoin, data that can determine dine in vs pick-up orders to determine how to staff on certain days would be great.
 
 ## 📁 Files Included
 - Capstone_Project_Final.ipynb

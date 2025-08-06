@@ -9,12 +9,12 @@ In this project, I used regression machine learning to forecast revenue generate
 •	Seasonal trends (daily)
 •	Monthly sales performance
 
-By training the model on past transaction data, I was able to generate reliable revenue estimates for future sales scenarios. These predictions support better decision-making around purchasing inventory, staffing, and promotional strategies, helping the business improve operational efficiency and reduce waste.
+By training the model on past transaction data, I was able to generate reliable revenue estimates for future sales scenarios. These predictions will help in better decision-making around purchasing inventory, staffing, and promotional strategies, helping the business improve operational efficiency and reduce waste.
 
 ## Data Acquisition:
 I utilized sales dataset covering transactions from 2023 to 2025. The data included key details such as order date, item description, quantity sold, and net price. This dataset provided a strong foundation for identifying high-performing menu items, analyzing seasonal trends, and uncovering patterns in customer purchasing behavior. 
 
-Visualizations below were created to highlight which items contributed most to revenue and during which time periods and insights that are critical for forecasting and strategic planning.
+Visualizations were created to highlight which items contributed most to revenue and during which time periods and insights that are critical for forecasting and strategic planning.
 
 ## Data Preprocessing/Preparation
 The dataset was cleaned and prepared to ensure accuracy and reliability by doing the following:
@@ -25,29 +25,25 @@ The dataset was cleaned and prepared to ensure accuracy and reliability by doing
 
 •	Data Splitting: Divided the dataset into two parts: a training set to teach the model using past data and a test set to evaluate how well it performs on unseen data.
 
+## Modeling
+I used Linear Regressuib abd Random Forrest regression models to predict future item-level revenue:
+- Linear Regression - helped identify linear trends in the data useful for baseline relationships between time, quantity sold and price.
+-  Random Forest captured the more complex non linear patterns.
 
-
-
-
-
-## 🤖 Modeling
-I used two regression models to predict future item-level revenue:
-- Linear Regression and Random Forest
-
-## 📊 Model Evaluation
-I measured model performance using:
-- **R² Score**: to show how much variance is explained by the model
-- **Mean Squared Error (MSE)**: to measure prediction error
+## Model Evaluation
+Since my goal was to predict revenue values, I used the regression models to evaluat performance. I measured model performance using R² Score and Mean Squared Error (MSE) to measure prediction errors.
 
 The Random Forest model outperformed Linear Regression in both metrics and is recommended for ongoing revenue forecasting tasks.
 
-## ✅ Results & Recommendation
+## Results & Recommendation
+
+Identifying top overall revenue generators: Cali-Bae, Loaded Nachos, El Classico BUrrito, Signature Fries and asada tacos, the restaurant can make more informed decisions around stocking, staffing, and campaign timing to drive growth and reduce waste. Ensuring these top performers can be leveraged for special campaigns during slower months, this can increase foot traffic, increasing sales and customers. 
+
 - Random Forest provided stronger and more accurate predictions
 - Revenue predictions can improve inventory decisions and reduce waste
-- Future enhancements can include additional data features (e.g., time of day, promotions, location)
+- Future enhancements can include additional data features like holidays or special events,
 
 ## 📁 Files Included
-- `Capstone_Project_Final.ipynb
-- `Capstone Project_Final.docx
+- Capstone_Project_Final.ipynb
 - Capstone_Project-Menu_Sales_Summary_Presentation.pptx
-- `README.md
+- README.md
